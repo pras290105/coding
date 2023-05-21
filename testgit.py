@@ -1,6 +1,8 @@
-a = 0
+import time
+
 while True:
-    print("this work",a)
-    a += 99999
-    if a >= 9999999:
-        break
+    
+    print("this while")
+    for i in range(1,1000):
+        time.sleep(2)
+        print("works for in")
